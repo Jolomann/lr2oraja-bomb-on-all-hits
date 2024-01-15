@@ -1,6 +1,6 @@
 # If you don't know what LR2oraja or beatoraja is...
 Go here
-https://github.com/wcko87/lr2oraja
+https://github.com/wcko87/lr2oraja and
 https://github.com/exch-bms2/beatoraja
 
 # What does this fork of LR2oraja achieve?
