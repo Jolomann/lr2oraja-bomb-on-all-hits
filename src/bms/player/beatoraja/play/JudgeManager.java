@@ -711,7 +711,10 @@ public class JudgeManager {
 
 		if (judge != 4)
 			this.judge[player[lane]][offset[lane]] = judge == 0 ? 1 : judge * 2 + (mfast > 0 ? 0 : 1);
-		if (judge <= ((PlaySkin) main.getSkin()).getJudgetimer()) {
+		// if (judge <= ((PlaySkin) main.getSkin()).getJudgetimer()) {
+		// 	main.timer.setTimerOn(SkinPropertyMapper.bombTimerId(player[lane], offset[lane]));
+		// }
+		if (judge < 4) {
 			main.timer.setTimerOn(SkinPropertyMapper.bombTimerId(player[lane], offset[lane]));
 		}
 		PMcharaJudge = judge + 1;
